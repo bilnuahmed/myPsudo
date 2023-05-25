@@ -1,0 +1,92 @@
+/* body {
+  background-image: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+} */
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+h2 {
+  color: rgb(24, 79, 92);
+  text-shadow: 1px 2px 2px black;
+}
+
+h2:hover {
+  color: white;
+}
+
+span {
+  position: relative;
+  top: 40px;
+  left: 30px;
+}
+
+.p1 {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 125px;
+  height: 100px;
+}
+
+.p1:hover {
+  background-color: aqua;
+}
+
+img:hover {
+  border-radius: 100%;
+}
+
+img {
+  cursor: pointer;
+}
+
+a {
+  font-size: 35px;
+}
+.a1:active {
+  color: blue;
+}
+
+.a1:visited {
+  color: red;
+}
+
+/* a2 */
+
+.a2:link {
+  color: darkblue;
+}
+
+.a2:visited {
+  color: yellowgreen;
+}
+
+/* ---------------------------- */
+h4::first-letter {
+  font-size: 50px;
+  color: darkorchid;
+}
+
+h4::first-line {
+  font-size: 30px;
+  color: green;
+}
+
+h1::after {
+  content: "Hello";
+}
+h1::before {
+  content: "How are you?";
+  color: blueviolet;
+}
+
+h3:hover::after {
+  content: "  I am fine!";
+  color: hotpink;
+}
+
+h4::selection {
+  background-color: lightseagreen;
+  color: white;
+}
